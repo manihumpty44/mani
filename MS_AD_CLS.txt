@@ -1,0 +1,73 @@
+                               ""MICROSOFT AZURE CLASSES""     * NOTES *
+
+1)
+‎‎* Download and Install UBUNTU or Gitbash for Windows for using LINUX in Windows System
+* Go through the setup with default options 
+* Here are some of the basic commands of Linux which we use : 
+   pwd-> Present working Directory
+   cd-> Change Directory
+   ls-> Listing out files
+   mkdir-> Create a folder .Ex: mkdir 'filename'
+    -In Linux Folders are represented in Blue colour & Files will be represented in White colour
+    -Folders will be always ending with forward slash "/"
+   clear-> Clears the screen
+   touch-> Create an empty file .Ex: touch 'file name' , touch file1 file2 file3 (For multiple files atatime)
+   vi-> Visual editor .Ex: vi 'filename' once it opens press 'i' to enter the info and press 'Esc :wq'for saving(write&quit)
+                                                                                             'Esc :q!' for just quit without saving
+                      .Ex: vi 'filename' it also creates a new file and opens up in editing mode directly
+   cat-> print the file info .Ex: cat 'filename'
+   rm-> remove a file  .Ex: rm 'filename' , rm file1 file2 file3 (For multiple files atatime)
+   rmdir-> remove the empty folder .Ex: rmdir 'foldername'
+   rm -rf-> remove the folder/file forcibly .Ex: rm -rf 'folder/filename'
+   cd ..-> to get back one step to previous folder
+   hostname-> devicename
+   ipconfig-> for IP address
+   CtrlC-> To come out of that specific line and start a new line of command
+* SCM stands for "Source code management" , We use it to store the code with the help of Github ,Azure repos ,Bitbucket
+* We have to signup for a Github account with ur mailid 
+* Create Repository
+* Repository contains the complete code
+* public won't charge but private charges you for storing the code.
+* Initialize the repository with add a readme file 
+* Create repository
+* VCS stands for "Version control system" , VCS tracks each and every info, like what changes have been made and by whom how many
+                                                                                   lines/Files have been added & deleted and all.
+2)
+* Here are some of the basic commands of git from github which we use :
+   git clone-> to clone the github code to local .Ex:  git clone'filepathURL'
+   git pull-> It will load all the recent changes made from github to local
+   git status-> It will show u the list of which files have been added r not
+                "In terminal RED colour means untracked files"
+   git add-> It will add the files in local .Ex: git add 'filename'
+   git add .-> It will add n number of files (multiplefiles) from the folder directory at the same time
+   git commit -m-> It shows u the msg of files which have been added .Ex: git commit -m "message of why we made the changes in code"
+   git push-> It will load all the recent changes made from local to github 
+   git push origin 'branchname'-> The newly added branch will be pushed from local to server
+  *"It will ask u to sign in with browser or signin with token"
+    "We have to check whether the github is loaded with our proper mailid or not, cause if we're loggedin with other mail in our system
+     will store our credentials in local system and then we have to goto credential manager, windows credentials,search for github 
+     logins and have to remove the unwanted mail"
+    "Personal Access Token we can get from github -->settings -->Developer settings --> Personal access token --> Tokens(classic)-->
+     Generate new token --> Generate new token(classic) --> enter github password --> Confirm --> Note'tokenname'--> Expiration -->
+     Scopes(Select every scope that needs to be performed) --> Generate the token --> Copy the token & paste it in "signin with token"
+   git config --global user.name "name" -> It changes the global username
+3)
+   git stash save-> Its a temporary location to save WIP files so that we can work on Important files
+   git stash pop-> It Restores the temporarily saved WIP files so that we can edit back
+   git stash list-> Shows u the no.of files that are stored in the stash
+   git stash drop-> It allows u to delete anything which have been stored temporarily in the stash
+   git log-> Is a command that used to find out the commit ID's
+   git show 'commitID'-> We can see what changes we have done on the particular commit ID
+    (q to quit out of it)
+   git branch -a-> It shows the list of branches that are in the Repository
+   git branch 'name'-> It will create the new branch with the given name
+   git checkout 'branchname'-> It will switch from one branch to other
+   git merge 'branchname'-> It merges the newly added files to main branch
+   git remote add origin 'URL'->It is the easy way to remember the URL with a name 'Origin'
+   git fetch-> It shows us the changes we've made in local, it compares with the server
+   **conflict means there is a problem
+4)
+   git
+   
+
+  
