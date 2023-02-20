@@ -11,7 +11,7 @@
     -In Linux Folders are represented in Blue colour & Files will be represented in White colour
     -Folders will be always ending with forward slash "/"
    clear-> Clears the screen
-   touch-> Create an empty file .Ex: touch 'file name' , touch file1 file2 file3 (For multiple files atatime)
+   touch-> Creates an empty file .Ex: touch 'file name' , touch file1 file2 file3 (For multiple files at a time)
    vi-> Visual editor .Ex: vi 'filename' once it opens press 'i' to enter the info and press 'Esc :wq'for saving(write&quit)
                                                                                              'Esc :q!' for just quit without saving
                       .Ex: vi 'filename' it also creates a new file and opens up in editing mode directly
@@ -30,8 +30,8 @@
 * public won't charge but private charges you for storing the code.
 * Initialize the repository with add a readme file 
 * Create repository
-* VCS stands for "Version control system" , VCS tracks each and every info, like what changes have been made and by whom how many
-                                                                                   lines/Files have been added & deleted and all.
+* VCS stands for "Version control system" , Git is VCS tracks each and every info, like what changes have been made and by whom how 
+                                                                              many lines/Files have been added & deleted and all.
 2)
 * Here are some of the basic commands of git from github which we use :
    git clone-> to clone the github code to local .Ex:  git clone'filepathURL'
@@ -50,6 +50,7 @@
     "Personal Access Token we can get from github -->settings -->Developer settings --> Personal access token --> Tokens(classic)-->
      Generate new token --> Generate new token(classic) --> enter github password --> Confirm --> Note'tokenname'--> Expiration -->
      Scopes(Select every scope that needs to be performed) --> Generate the token --> Copy the token & paste it in "signin with token"
+     PAT "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"
    git config --global user.name "name" -> It changes the global username
 3)
    git stash save-> Its a temporary location to save WIP files so that we can work on Important files
@@ -65,7 +66,7 @@
    git merge 'branchname'-> It merges the newly added files to main branch
    git remote add origin 'URL'->It is the easy way to remember the URL with a name 'Origin'
    git fetch-> It shows us the changes we've made in local, it compares with the server
-   **conflict means there is a problem
+   **conflict means there is a problem we need to update**
 4)
    git
    
